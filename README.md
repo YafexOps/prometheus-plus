@@ -1,2 +1,7 @@
-# prometheus-plus
-prometheus web admin
+# 系统是对prometheus进行增强，主要功能点就如下几点：
+1、用户权限管理，可以支持对接ldap，基于RBAC授权（非k8s的RBAC）
+2、监控和告警配置Web化
+3、图形化展示：监控信息（整合grafana，基于iframe即可，无需自己绘图）
+4、网络拓扑图自动生成，并关联监控展示
+5、网络设备状态展示
+6、网络设备信信息查询（IP-MAC-PORT）
